@@ -1,3 +1,6 @@
+fork了郭文龙的这个项目，这个项目写的挺好的。多Module结构，ChatGpt接口使用的优秀demo。
+感谢郭文龙同学。
+
 # ChatGPT For Android
 
 [![License](https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg)](https://github.com/Wenlong-Guo/ChatGPT-For-Android/blob/master/license)
