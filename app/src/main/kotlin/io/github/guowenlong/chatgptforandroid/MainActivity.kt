@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
 import com.jaeger.library.StatusBarUtil
+import dagger.hilt.android.AndroidEntryPoint
 import io.github.guowenlong.chatgptforandroid.chat.completion.ChatActivity
 import io.github.guowenlong.chatgptforandroid.chat.image.ImageCreateActivity
 import io.github.guowenlong.chatgptforandroid.chat.translation.TranslationActivity
@@ -22,6 +23,7 @@ import org.koin.java.KoinJavaComponent
  * Date:        2023/3/31 2:38
  * Email:       guowenlong20000@sina.com
  */
+@AndroidEntryPoint
 class MainActivity(override val layoutId: Int = R.layout.activity_main) :
     BaseActivity<ActivityMainBinding>() {
 

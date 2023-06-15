@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
+import dagger.hilt.android.AndroidEntryPoint
 import io.github.guowenlong.chatgptforandroid.common.base.BaseActivity
 import io.github.guowenlong.chatgptforandroid.databinding.ActivitySplashBinding
 import kotlinx.coroutines.delay
@@ -16,6 +17,7 @@ import kotlinx.coroutines.launch
  * Email:       guowenlong20000@sina.com
  */
 @SuppressLint("CustomSplashScreen")
+@AndroidEntryPoint
 class SplashActivity :BaseActivity<ActivitySplashBinding>() {
 
     override val layoutId: Int = R.layout.activity_splash

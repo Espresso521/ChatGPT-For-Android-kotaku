@@ -1,5 +1,6 @@
 package io.github.guowenlong.chatgptforandroid
 
+import dagger.hilt.android.HiltAndroidApp
 import io.github.guowenlong.SingleChatGPT
 import io.github.guowenlong.chatgpt.ChatGPT
 import io.github.guowenlong.chatgptforandroid.common.base.BaseApplication
@@ -17,6 +18,7 @@ import java.net.Proxy
  * Date:        2023/3/30 0:56
  * Email:       guowenlong20000@sina.com
  */
+@HiltAndroidApp
 class App : BaseApplication() {
 
     private val sp: SpProperty by KoinJavaComponent.inject(SpProperty::class.java)
